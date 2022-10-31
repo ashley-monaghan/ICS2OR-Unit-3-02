@@ -21,20 +21,12 @@ if (navigator.serviceWorker) {
  */
 function calculate() {
   // input
-  const a = parseInt(document.getElementById("textbox-a").value)
-  const b = parseInt(document.getElementById("textbox-b").value)
-  const c = parseInt(document.getElementById("textbox-c").value)
+  const length = parseInt(document.getElementById("length").value)
+  const width = parseInt(document.getElementById("width").value)
+  const height = parseInt(document.getElementById("height").value)
 
   // process
-  const math = a + b + c
+  const math = (length * width * height) / 3
   // output
   document.getElementById("math").innerHTML = "Numbers: " + math + " units"
-}
-
-/**
- * This function displays an alert.
- * Words
- */
-function button() {
-  document.getElementById("words").innerHTML = "<p>Hello, World!</p>"
 }

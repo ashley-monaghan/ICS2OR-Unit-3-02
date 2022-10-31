@@ -62,8 +62,8 @@
         <!-- Image -->
         <p></p>
         <img
-          src="./images/notebook-animation.svg"
-          alt="notebook-animation.svg"
+          src="./images/Screenshot 2022-10-31 13.50.38.png"
+          alt="Rectangular Based Pyramid"
           width="40%"
           height="40%"
         />
@@ -71,14 +71,14 @@
         <p>Please enter the following dimensions:</p>
         <!-- First text box | Numeric Textfield with text beside textbox -->
         <form action="#">
-          Textbox A:
+          Length:
           <div class="mdl-textfield mdl-js-textfield">
             <input
               class="mdl-textfield__input"
               type="text"
               pattern="-?[0-9]*(\.[0-9]+)?"
-              id="textbox-a"
-              aria-label="Textbox A"
+              id="length"
+              aria-label="lengthA"
             />
             <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
@@ -86,14 +86,14 @@
         </form>
         <!-- B Base | Numeric Textfield with text beside textbox -->
         <form action="#">
-          Textbox B:
+          Width:
           <div class="mdl-textfield mdl-js-textfield">
             <input
               class="mdl-textfield__input"
               type="text"
               pattern="-?[0-9]*(\.[0-9]+)?"
-              id="textbox-b"
-              aria-label="Textbox B"
+              id="width"
+              aria-label="width"
             />
             <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
@@ -101,14 +101,14 @@
         </form>
         <!-- Height | Numeric Textfield with text beside textbox -->
         <form action="#">
-          Textbox C:
+          Height:
           <div class="mdl-textfield mdl-js-textfield">
             <input
               class="mdl-textfield__input"
               type="text"
               pattern="-?[0-9]*(\.[0-9]+)?"
-              id="textbox-c"
-              aria-label="Textbox C"
+              id="height"
+              aria-label="height"
             />
             <span class="mdl-textfield__error">Input is not a number!</span>
           </div>
@@ -120,13 +120,6 @@
           onclick="calculate()"
         >
           Math!!
-        </button>
-        <!-- Raised button with ripple for words -->
-        <button
-          class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent"
-          onclick="button()"
-        >
-          Button!!
         </button>
         <!-- basic text -->
         <p></p>
