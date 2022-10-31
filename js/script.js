@@ -28,5 +28,5 @@ function calculate() {
   // process
   const math = (length * width * height) / 3
   // output
-  document.getElementById("math").innerHTML = "Numbers: " + math + " units"
+  document.getElementById("math").innerHTML = "Numbers: " + math.isFixed(2) + " units"
 }
