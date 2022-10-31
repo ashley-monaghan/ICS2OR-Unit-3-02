@@ -29,5 +29,5 @@ function calculate() {
   const math = (length * width * height) / 3
   // output
   document.getElementById("math").innerHTML =
-    "Numbers: " + math.toFixed(2) + " units"
+    "Numbers: " + math.toFixed(2) + " cm³"
 }
