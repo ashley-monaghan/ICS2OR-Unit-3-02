@@ -21,9 +21,9 @@ if (navigator.serviceWorker) {
  */
 function calculate() {
   // input
-  const length = parseInt(document.getElementById("length").value)
-  const width = parseInt(document.getElementById("width").value)
-  const height = parseInt(document.getElementById("height").value)
+  const length = parseFloat(document.getElementById("length").value)
+  const width = parseFloat(document.getElementById("width").value)
+  const height = parseFloat(document.getElementById("height").value)
 
   // process
   const math = (length * width * height) / 3
